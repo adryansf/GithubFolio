@@ -10,12 +10,10 @@
     "stars": "Stars",
     "repositories_with_pages": "Repositórios with pages"
   },
-  "page": {
-    "back": "Back",
-    "view_github": "View on Github"
-  },
   "messages": {
     "user_not_found": "User not found."
   },
-  "view_on_github": "View all repositories on Github"
+  "view_on_github": "View all repositories on Github",
+  "star": "Put a star on Github",
+  "creator": "Made by Adryan Freitas"
 }

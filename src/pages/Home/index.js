@@ -8,8 +8,10 @@ import api from '~/services/api';
 
 // Components
 import Language from '~/components/Language';
+import Star from '~/components/StarButton';
 import Logo from '~/components/Logo';
 import Loader from '~/components/Loader';
+import Footer from '~/components/Footer';
 
 // Styles
 import { Container } from './styles';
@@ -47,6 +49,7 @@ export default function Home() {
 
   return (
     <Container>
+      <Star />
       <Language />
       <form onSubmit={handleSubmit}>
         <Logo size="normal" />
@@ -60,6 +63,7 @@ export default function Home() {
           {loading ? <Loader /> : intl.get('home.button_submit')}
         </button>
       </form>
+      <Footer />
     </Container>
   );
 }

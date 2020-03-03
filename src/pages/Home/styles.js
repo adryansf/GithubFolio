@@ -4,7 +4,7 @@ import { lighten } from 'polished';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 330px;
+  min-height: 400px;
 
   margin: auto;
   height: 100%;

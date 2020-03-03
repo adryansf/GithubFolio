@@ -10,12 +10,10 @@
     "stars": "Estrelas",
     "repositories_with_pages": "Repositórios com páginas"
   },
-  "page": {
-    "back": "Voltar",
-    "view_github": "Ver no Github"
-  },
   "messages": {
     "user_not_found": "Usuário não encontrado. Verifique o username."
   },
-  "view_on_github": "Ver todos os repositórios no Github"
+  "view_on_github": "Ver todos os repositórios no Github",
+  "star": "Colocar uma estrela no Github",
+  "creator": "Desenvolvido por Adryan Freitas"
 }
