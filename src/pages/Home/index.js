@@ -52,7 +52,7 @@ export default function Home() {
       <Star />
       <Language />
       <form onSubmit={handleSubmit}>
-        <Logo size="normal" />
+        <Logo />
         <input
           type="text"
           placeholder={intl.get('home.username_input')}

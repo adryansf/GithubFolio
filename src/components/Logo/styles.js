@@ -1,10 +1,4 @@
-import styled, { css } from 'styled-components';
-
-export const size = {
-  small: 30,
-
-  normal: 60,
-};
+import styled from 'styled-components';
 
 export const Container = styled.div`
   position: relative;
@@ -15,21 +9,37 @@ export const Container = styled.div`
   h1 {
     color: #fff;
     text-shadow: 1px 1px 1px black;
-    font-size: ${props => css`calc(${size[props.size]} * 1px)`};
+    font-size: 60px;
     font-weight: bold;
   }
 
   svg {
-    font-size: ${props => css`calc(${size[props.size]} * 2px)`};
+    font-size: 120px;
     color: #fff;
   }
 
   svg + svg {
     position: absolute;
-    font-size: ${props => css`calc(${size[props.size]} * 1px)`};
+    font-size: 60px;
 
-    top: ${props => css`calc(${size[props.size]} * 0.6px)`};
+    top: calc(60 * 0.6px);
 
-    left: ${props => css`calc(${size[props.size]} * 0.5px)`};
+    left: calc(60 * 0.5px);
+  }
+
+  @media (max-width: 425px) {
+    h1 {
+      font-size: 30px;
+    }
+
+    svg {
+      font-size: 60px;
+    }
+
+    svg + svg {
+      font-size: 30px;
+      top: calc(30 * 0.6px);
+      left: calc(30 * 0.5px);
+    }
   }
 `;
