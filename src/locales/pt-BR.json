@@ -1,0 +1,21 @@
+{
+  "home": {
+    "username_input": "Digite o usuário do github",
+    "button_submit": "Procurar"
+  },
+  "user": {
+    "repositories": "Repositórios",
+    "followers": "Seguidores",
+    "following": "Seguindo",
+    "stars": "Estrelas",
+    "repositories_with_pages": "Repositórios com páginas"
+  },
+  "page": {
+    "back": "Voltar",
+    "view_github": "Ver no Github"
+  },
+  "messages": {
+    "user_not_found": "Usuário não encontrado. Verifique o username."
+  },
+  "view_on_github": "Ver todos os repositórios no Github"
+}
