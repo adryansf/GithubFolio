@@ -1,4 +1,4 @@
-# GitFolio
+# GithubFolio
 
 **Creator of simple portfolios through your Github pages**
 
