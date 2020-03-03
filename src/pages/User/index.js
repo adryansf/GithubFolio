@@ -6,6 +6,7 @@ import {
   MdCheck,
   MdWork,
   MdMarkunreadMailbox,
+  MdArrowBack,
 } from 'react-icons/md';
 import { FaBlog } from 'react-icons/fa';
 
@@ -66,6 +67,10 @@ export default function User() {
     loadUser();
   }, [history, user, username]);
 
+  function handleButtonBack() {
+    history.push('/');
+  }
+
   if (loading) {
     return (
       <Container
@@ -80,6 +85,9 @@ export default function User() {
   return (
     <Container>
       <Language />
+      <button type="button" className="back" onClick={handleButtonBack}>
+        <MdArrowBack />
+      </button>
       <UserDescription>
         <img src={user.avatar_url} alt={user.name} />
         <h1>{user.name}</h1>

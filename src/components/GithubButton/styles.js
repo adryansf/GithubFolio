@@ -15,6 +15,10 @@ export const Container = styled.a`
   font-weight: bold;
   transition: background 0.5s, color 0.5s;
 
+  svg{
+    transition: color: 0.5s;
+  }
+
   &:hover {
     background: rgba(0, 0, 0, 0.5);
     color: #fff;

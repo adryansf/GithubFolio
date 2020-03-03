@@ -14,6 +14,29 @@ export const Container = styled.div`
     top: 20px;
     right: 10px;
   }
+
+  button.back {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: background 0.5s;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.6);
+
+      svg {
+        color: #7159c1;
+      }
+    }
+
+    svg {
+      font-size: 30px;
+      color: #ccc;
+      transition: color 0.5s;
+    }
+  }
 `;
 
 export const UserDescription = styled.div`
