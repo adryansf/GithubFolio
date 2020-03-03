@@ -10,7 +10,7 @@ export default function Logo({ size }) {
     <Container size={size}>
       <GoBrowser />
       <IoLogoGithub />
-      <h1>GitFolio</h1>
+      <h1>GithubFolio</h1>
     </Container>
   );
 }

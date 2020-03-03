@@ -9,7 +9,7 @@ export default function StarButton() {
     <Container
       target="_blank"
       rel="noreferrer noopener"
-      href="https://github.com/adryansf/GitFolio"
+      href="https://github.com/adryansf/GithubFolio"
     >
       <FaStar />
 
