@@ -41,7 +41,11 @@ export const Container = styled.a`
     }
   }
 
-  span {
+  p {
     color: #333;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
   }
 `;

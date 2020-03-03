@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   button {
     background: 0;
-    color: #7159c1;
+    color: #ccc;
   }
 
   button + button {
@@ -17,6 +17,8 @@ export const Container = styled.div`
   }
 
   .active {
-    color: #fff;
+    color: #7159c1;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
   }
 `;

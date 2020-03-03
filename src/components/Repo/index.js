@@ -32,7 +32,7 @@ export default function Repo({ repo }) {
         <h3>{repo.name}</h3>
       </header>
 
-      <span>{repo.description}</span>
+      <p>{repo.description}</p>
     </Container>
   );
 }
